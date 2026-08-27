@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./public/logo.svg" width="84" height="84" alt="StackPulse Lightning Logo" />
+<img src="./public/logo.svg" width="90" height="90" alt="StackPulse Official Logo" />
 
-# ⚡ StackPulse
+# StackPulse
 
 ### Enterprise Task & Sprint Management System
 
-[![StackPulse](https://img.shields.io/badge/StackPulse-v1.0.0-FF7A00?style=for-the-badge&logo=powerpages&logoColor=white)](https://github.com/Sushanth666/StackPulse--ToDo-Management.git)
+[![StackPulse](https://img.shields.io/badge/StackPulse-v1.0.0-6366f1?style=for-the-badge&logo=stackshare&logoColor=white)](https://github.com/Sushanth666/StackPulse--ToDo-Management.git)
 ![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-5.4.14-646cff?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3.4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)
