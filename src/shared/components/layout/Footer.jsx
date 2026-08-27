@@ -228,10 +228,10 @@ export const Footer = ({ onOpenNewModal, onOpenCommandPalette, onOpenTeamDrawer 
         {/* Bottom Bar: Copyright & Developer Credits (Centered) & Back to Top */}
         <div className="footer-bottom-bar">
           <div className="footer-bottom-center">
-            <span>© {new Date().getFullYear()} StackPulse. Open source portfolio project.</span>
+            <span>© {new Date().getFullYear()} StackPulse Inc. Enterprise Sprint & Task Management.</span>
             <span className="footer-dot">•</span>
             <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem' }}>
-              Built with <Heart size={13} color="#ef4444" fill="#ef4444" className="heart-beat" /> by <strong style={{ color: 'var(--text-primary)' }}>Sree Sushanth B V</strong>
+              Engineered with <Heart size={13} color="#ef4444" fill="#ef4444" className="heart-beat" /> by <strong style={{ color: 'var(--text-primary)' }}>Sree Sushanth B V</strong>
             </span>
           </div>
 
