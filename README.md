@@ -1,25 +1,30 @@
-<div align="center">
+<p align="center">
+  <img src="public/logo.svg" width="60" height="60" alt="StackPulse Logo" />
+</p>
 
-<img src="./public/logo.svg" width="90" height="90" alt="StackPulse Official Logo" />
+<h1 align="center">StackPulse</h1>
 
-# StackPulse
+<p align="center">
+  <strong>Enterprise Task &amp; Sprint Management System</strong><br/>
+  <em>High-performance React 18, Vite &amp; Tailwind CSS workspace with REST CRUD API integration</em>
+</p>
 
-### Enterprise Task & Sprint Management System
+<p align="center">
+  <a href="https://github.com/Sushanth666/StackPulse--ToDo-Management.git"><img src="https://img.shields.io/badge/StackPulse-v1.0.0-6366f1?style=for-the-badge&logo=stackshare&logoColor=white" alt="StackPulse" /></a>
+  <img src="https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-5.4.14-646cff?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v3.4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/REST_API-JSONPlaceholder-22c55e?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API" />
+  <img src="https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge" alt="MIT License" />
+</p>
 
-[![StackPulse](https://img.shields.io/badge/StackPulse-v1.0.0-6366f1?style=for-the-badge&logo=stackshare&logoColor=white)](https://github.com/Sushanth666/StackPulse--ToDo-Management.git)
-![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-5.4.14-646cff?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v3.4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-JSONPlaceholder-22c55e?style=for-the-badge&logo=fastapi&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)
-
-<br/>
-
-**A high-performance, enterprise-grade Task & Sprint Management platform built with React 18, Vite, Tailwind CSS, and REST CRUD API Integration.**
-
-[Key Features](#-key-features) • [Architecture](#-modular-folder-structure) • [REST API Integration](#-rest-api-integration) • [Local Setup](#-installation--getting-started) • [Git Deployment](#-git-repository--push-instructions)
-
-</div>
+<p align="center">
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-modular-folder-structure">Architecture</a> •
+  <a href="#-rest-api-integration">REST API</a> •
+  <a href="#-installation--getting-started">Getting Started</a> •
+  <a href="#-git-repository--push-instructions">Deployment</a>
+</p>
 
 ---
 
