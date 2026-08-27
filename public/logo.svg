@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" fill="none">
+  <defs>
+    <!-- Vibrant Energy Gradient: Amber/Orange to Neon Coral -->
+    <linearGradient id="stackpulse-lightning" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFB020" />
+      <stop offset="35%" stop-color="#FF7A00" />
+      <stop offset="70%" stop-color="#FF4838" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+
+    <!-- Subtle Ambient Glow Filter -->
+    <filter id="lightning-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#FF5722" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Lightning Bolt Vector -->
+  <path
+    d="M58 8 L24 52 H46 L42 92 L76 44 H54 L58 8 Z"
+    fill="url(#stackpulse-lightning)"
+    filter="url(#lightning-glow)"
+    stroke="#FFA726"
+    stroke-width="1.5"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+</svg>
