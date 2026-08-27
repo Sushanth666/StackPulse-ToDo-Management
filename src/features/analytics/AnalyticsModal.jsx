@@ -126,27 +126,39 @@ export const AnalyticsModal = ({ isOpen, onClose }) => {
         className="modal-container analytics-modal-container"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
-        <div className="modal-header">
-          <div className="modal-title">
-            <div className="stat-icon-wrapper stat-icon-purple" style={{ width: 36, height: 36 }}>
-              <BarChart3 size={18} />
+        {/* Responsive Header */}
+        <div className="analytics-modal-header">
+          <div className="analytics-header-top">
+            <div className="analytics-title-group">
+              <div className="stat-icon-wrapper stat-icon-purple" style={{ width: 34, height: 34, flexShrink: 0 }}>
+                <BarChart3 size={17} />
+              </div>
+              <div style={{ minWidth: 0 }}>
+                <h3 className="analytics-header-title">
+                  Sprint Analytics & Velocity
+                </h3>
+                <p className="analytics-header-subtitle">
+                  Real-time workload, domain progress, and team capacity
+                </p>
+              </div>
             </div>
-            <div>
-              <span style={{ fontSize: '1.2rem', fontWeight: 800, display: 'block' }}>
-                Sprint Analytics & Velocity Dashboard
-              </span>
-              <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiary)' }}>
-                Real-time workload distribution, domain progress, and team capacity
-              </span>
-            </div>
+
+            <button
+              id="close-analytics-modal-btn"
+              className="btn-icon btn-ghost"
+              onClick={onClose}
+              aria-label="Close analytics modal"
+              style={{ flexShrink: 0 }}
+            >
+              <X size={18} />
+            </button>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          {/* Action Export Buttons */}
+          <div className="analytics-header-actions">
             <button
               id="export-pdf-analytics-btn"
-              className="btn btn-primary"
-              style={{ padding: '0.4rem 0.75rem', fontSize: '0.775rem' }}
+              className="btn btn-primary btn-sm"
               onClick={handleExportPDFReport}
               title="Download executive PDF Sprint Report"
             >
@@ -156,22 +168,12 @@ export const AnalyticsModal = ({ isOpen, onClose }) => {
 
             <button
               id="export-analytics-btn"
-              className="btn btn-secondary"
-              style={{ padding: '0.4rem 0.75rem', fontSize: '0.775rem' }}
+              className="btn btn-secondary btn-sm"
               onClick={handleExportSprintReport}
               title="Download CSV spreadsheet"
             >
               <Download size={14} />
-              <span>CSV Data</span>
-            </button>
-
-            <button
-              id="close-analytics-modal-btn"
-              className="btn-icon btn-ghost"
-              onClick={onClose}
-              aria-label="Close analytics modal"
-            >
-              <X size={18} />
+              <span>CSV Export</span>
             </button>
           </div>
         </div>
